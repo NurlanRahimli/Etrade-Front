@@ -1,0 +1,58 @@
+.login{
+  .signin-header{
+          overflow: hidden;
+          .bgi-img {
+              padding-left: 66px;
+              padding-top: 66px;
+              background-image: url("https://new.axilthemes.com/demo/template/etrade/assets/images/bg/bg-image-9.jpg");
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-position: center;
+              height: 745px;
+              width: 500px;
+          }
+
+          .singin-header-btn{
+              padding-top: 66px;
+              padding-right: 66px;
+              span{
+                  color: #000;
+                  font-size: 14px;
+                  font-weight: 600;
+              }
+
+              .sign-up-btn{
+                  padding: 16px 38px;
+                  background-color: #ff497c;
+                  color: #fff;
+                  margin-left: 35px;
+                  border-radius: 8px;
+                  text-decoration: none;
+                  transition: .3s;
+              }
+              .sign-up-btn:hover{
+                  padding: 22px 44px;
+              }
+
+          }
+          
+      }
+      
+      .signin-form-wrap {
+          width: 100%;
+          overflow-y: hidden;
+          display: flex;
+          margin: 180px -30px -30px;
+
+          .signin-form{
+              margin: 0;
+              max-width: 450px;
+              width: 100%;
+              padding: 30px;
+              h3{
+                  margin-bottom: 16px;
+                  font-size: 28px;
+              }
+          }
+      }
+}
